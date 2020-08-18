@@ -11,12 +11,12 @@ const getObjectSize = (obj) => {
     }
   
     if (count === 0) {
-      throw new Error(`object is empty`)
+      throw new Error(`object is empty`);
     }
   
     return count;
-};
+  };
   
-console.log(getObjectSize({ name: "Steve", lastname: "Jobs" })); //2
-console.log(getObjectSize({ a: 1, b: 2, c: "hello" })); //3
-console.log(getObjectSize({})); // `object is empty`
+  console.log(getObjectSize({ name: "Steve", lastname: "Jobs" })); //2
+  console.log(getObjectSize({ a: 1, b: 2, c: "hello" })); //3
+  console.log(getObjectSize({})); // `object is empty`
