@@ -16,3 +16,4 @@ const getFilterRange = (arr, firstNum, secondNum) => {
 };
 
 getFilterRange([-10, -8, 0, 10, 20], -100, 15) // [-10, -8, 0, 10]
+    
