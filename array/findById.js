@@ -18,4 +18,4 @@ const findById = (arr, Id) => {
     { id: 4, title: "node" },
   ];
 
-  findById(arr, 2);
+  findById(arr, 2); // { id: 2, title: "angular" },
