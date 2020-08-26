@@ -3,11 +3,19 @@
     ‘00’, ‘01’, ‘02’, …, ‘98’, ‘99’.
 */
 
-const arr = [];
+const getCommaDelimitedFormat = () => {
+  let arr = [];
 
-for (let i = 0; i < 100; i++) {
-  i < 10 ? (i = "0" + i) : (i += "");
+  for (let i = 0; i < 100; i++) {
+    i < 10 ? (i = "0" + i) : (i += "");
 
-  arr.push(i);
+    arr.push(i);
+  }
+
+  return arr;
 }
+
+ getCommaDelimitedFormat();
+
+
 
