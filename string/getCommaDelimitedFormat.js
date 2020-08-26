@@ -1,7 +1,9 @@
-/*  Write a program which will give you all of the potential combinations of a two-digit
-    decimal combination, printed in a comma-delimited format
-    ‘00’, ‘01’, ‘02’, …, ‘98’, ‘99’.
+/*
+  Write a program which will give you all of the potential combinations of a two-digit
+  decimal combination, printed in a comma-delimited format
+  ‘00’, ‘01’, ‘02’, ..., ‘98’, ‘99’.
 */
+
 
 const getCommaDelimitedFormat = () => {
   let arr = [];
@@ -16,6 +18,3 @@ const getCommaDelimitedFormat = () => {
 }
 
  getCommaDelimitedFormat();
-
-
-
