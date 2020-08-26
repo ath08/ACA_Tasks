@@ -1,3 +1,8 @@
+/*
+    Write a function which makes the selected symbol uppercased
+*/
+
+
 const getSignedSymbolToUppercase = (str, idx) => {
     let str_ = '';
 
