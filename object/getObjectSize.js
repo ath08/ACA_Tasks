@@ -3,20 +3,18 @@
     ‘Empty’
 */
 
-const getObjectSize = (obj) => {
-    let count = 0;
-  
-    for (let key in obj) {
+let getSize = (obj) => {
+  let count = 0;
+
+  for (let key in obj) {
       count += 1;
-    }
-  
-    if (count === 0) {
-      throw new Error(`object is empty`);
+  }
+
+  if (count === 0) {
+      return "Empty";
     }
   
     return count;
-  };
-  
-  console.log(getObjectSize({ name: "Steve", lastname: "Jobs" })); //2
-  console.log(getObjectSize({ a: 1, b: 2, c: "hello" })); //3
-  console.log(getObjectSize({})); // `object is empty`
+};
+
+getSize({ name: "Steve", lastname: "Jobs" }); //2
